@@ -1,0 +1,29 @@
+{
+  "name": "tg-backend-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghostik-gh/tg-backend-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghostik-gh/tg-backend-portfolio/issues"
+  },
+  "homepage": "https://github.com/Ghostik-gh/tg-backend-portfolio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "gitignore": "^0.7.0",
+    "localenv": "^0.2.2",
+    "node-telegram-bot-api": "^0.59.0"
+  }
+}
