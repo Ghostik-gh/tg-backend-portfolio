@@ -9,6 +9,7 @@ bot.on('message', async (msg) => {
   const urlPortfolio = 'https://ghostik-gh.github.io/portfolio/#/';
   if (text === '/start') {
     await bot.sendMessage(chatId, 'Received your message', {
+      disable_notification: false,
       reply_markup: {
         inline_keyboard: [[{ text: 'Сайт', web_app: { url: urlPortfolio } }]],
       },
