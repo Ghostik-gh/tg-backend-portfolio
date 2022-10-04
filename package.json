@@ -21,6 +21,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.3",
     "gitignore": "^0.7.0",
     "localenv": "^0.2.2",
